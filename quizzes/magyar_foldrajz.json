@@ -1,0 +1,39 @@
+[
+  {
+    "question": "Mi a fővárosa Magyarországnak?",
+    "type": "single",
+    "options": [
+      "Budapest",
+      "Bécs",
+      "Prága",
+      "Varsó"
+    ],
+    "answer": "Budapest",
+    "points": 1
+  },
+  {
+    "question": "Melyek magyar megyeszékhelyek?",
+    "type": "multiple",
+    "options": [
+      "Szeged",
+      "Debrecen",
+      "Pécs",
+      "Kassa"
+    ],
+    "answer": [
+      "Szeged",
+      "Debrecen",
+      "Pécs"
+    ],
+    "points": 2
+  },
+  {
+    "question": "Melyik a legmagasabb hegycsúcs Magyarországon?",
+    "type": "text",
+    "answer": [
+      "Kékes"
+    ],
+    "points": 1,
+    "match_type": "contains"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Hány centiméter van 3 méterben?",
+    "type": "text",
+    "answer": ["300"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány kilogramm 5000 gramm?",
+    "type": "text",
+    "answer": ["5"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány liter 2 hektoliter?",
+    "type": "text",
+    "answer": ["200"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány perc 3 óra?",
+    "type": "text",
+    "answer": ["180"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány milliméter 2.5 centiméter?",
+    "type": "text",
+    "answer": ["25"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány gramm 0.25 kilogramm?",
+    "type": "text",
+    "answer": ["250"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány másodperc 10 perc?",
+    "type": "text",
+    "answer": ["600"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány deciliter 1 liter?",
+    "type": "text",
+    "answer": ["10"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány méter 1500 milliméter?",
+    "type": "text",
+    "answer": ["1.5"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány óra 7200 másodperc?",
+    "type": "text",
+    "answer": ["2"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Melyik nagyobb?",
+    "type": "single",
+    "options": ["2 kg", "1500 g", "300 dkg", "10000 g"],
+    "answer": "10000 g",
+    "points": 1
+  },
+  {
+    "question": "Melyik hosszúság-mértékegységek helyesek?",
+    "type": "multiple",
+    "options": ["km", "dm", "cl", "mm", "kg"],
+    "answer": ["km", "dm", "mm"],
+    "points": 2
+  },
+  {
+    "question": "Hány négyzetméter 1 hektár?",
+    "type": "text",
+    "answer": ["10000"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány köbcentiméter 1 liter?",
+    "type": "text",
+    "answer": ["1000"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány milliliter 2.5 liter?",
+    "type": "text",
+    "answer": ["2500"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány deciméter 1 méter?",
+    "type": "text",
+    "answer": ["10"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány kilogramm 3000 gramm?",
+    "type": "text",
+    "answer": ["3"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány óra 1 nap?",
+    "type": "text",
+    "answer": ["24"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány hektométer 5 kilométer?",
+    "type": "text",
+    "answer": ["50"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány másodperc 2 óra 30 perc?",
+    "type": "text",
+    "answer": ["9000"],
+    "points": 1,
+    "match_type": "number"
+  }
+]

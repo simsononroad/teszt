@@ -1,0 +1,206 @@
+{
+  "classes": {
+    "9i_1": {},
+    "9i_2": {},
+    "10i_1": {},
+    "10i_2": {},
+    "10k_1": {},
+    "10k_2": {},
+    "11i_1": {
+      "i2328-biharibenjamin@thankaroly.hu": {
+        "name": "Bihari Benjámin",
+        "email": "i2328-biharibenjamin@thankaroly.hu",
+        "password_hash": "5956db5d5dbbe194980b9a3125125dfb0e96615e08375fcc625fdcf2a60461b3:5a1bc4987fedb90fa380ae764ab9718f"
+      },
+      "i2328-ferenczmarcell@thankaroly.hu": {
+        "name": "Ferencz Marcell Zoltán",
+        "email": "i2328-ferenczmarcell@thankaroly.hu",
+        "password_hash": "bdc7e705442d1062138666eaa5fe6fb43c74caa00536b4685ec87625347e7674:10b44419bb6e41bec267d9729715210a"
+      },
+      "i2328-halaszkilian@thankaroly.hu": {
+        "name": "Halász Kilián",
+        "email": "i2328-halaszkilian@thankaroly.hu",
+        "password_hash": "6a3eefee688214475dd083460b17f0c037d10c0a3a486edfd98fb03af264929d:cdaa90722e8de96159e6aa326f443ac9"
+      },
+      "i2328-nagyadam@thankaroly.hu": {
+        "name": "Nagy Ádám",
+        "email": "i2328-nagyadam@thankaroly.hu",
+        "password_hash": "7db71e7a097bb0f5c45d7f68c5d789d3071d2c404907f121996db82407a5942e:799db1126f46f0520807d4f1e94bcae1"
+      },
+      "i2328-szegedigyorgy@thankaroly.hu": {
+        "name": "Szegedi György Balázs",
+        "email": "i2328-szegedigyorgy@thankaroly.hu",
+        "password_hash": "0adc35fc6d237c12de05672ca9b979812064986df634f1ed5c555ab029f1c942:5731dcfd0f2f5341cc52ce3df3fc8fa5"
+      },
+      "i2328-szilagyigabor@thankaroly.hu": {
+        "name": "Szilágyi Gábor Dániel",
+        "email": "i2328-szilagyigabor@thankaroly.hu",
+        "password_hash": "438a8cf046d473a3c89884363af3d1602be5e79ec60c2979a1307f4f15a0acd0:60db5ce76531c51c32cf216a1fd9a198"
+      },
+      "i2328-szolykabence@thankaroly.hu": {
+        "name": "Szolyka Bence Róbert",
+        "email": "i2328-szolykabence@thankaroly.hu",
+        "password_hash": "26a357f85d99af804898d8991dd9aa05e4b918549103201776f7868c2e6708c2:8da94706295c1d3126b8453722b86e3e"
+      },
+      "i2328-tallerlilien@thankaroly.hu": {
+        "name": "Taller Lilien",
+        "email": "i2328-tallerlilien@thankaroly.hu",
+        "password_hash": "0e40beaf2cbbe9ecea834a397b951c9ac0b0f76dff861e22909dc6ee463a3e64:ea6fe1f2732e86c540c18ccfa2c15b55"
+      },
+      "i2328-tihonovandras@thankaroly.hu": {
+        "name": "Tihonov András",
+        "email": "i2328-tihonovandras@thankaroly.hu",
+        "password_hash": "88be743a6b66bb351d2ffba4adbbe965a9844b6466d89619ea4332242c077272:f3639efbd8f962c41547c54a8ca7ad58"
+      },
+      "i2328-vigh-buczhunor@thankaroly.hu": {
+        "name": "Vigh-Bucz Hunor",
+        "email": "i2328-vigh-buczhunor@thankaroly.hu",
+        "password_hash": "f9e88011ce97b8b017785c4b6de4e27c19112f29ec4a0225bc9bc3a783e3e77b:64ca1f9981b533f78be9c8c20f16187e"
+      },
+      "i2328-vinczekaroly@thankaroly.hu": {
+        "name": "Vincze Károly Viktor",
+        "email": "i2328-vinczekaroly@thankaroly.hu",
+        "password_hash": "9ea0b7a7d2c574c85308343be4f693bd2bcb38b14c46622e792c087b31a0fa82:5bb08925b00388216649b014ee9ba9f2"
+      }
+    },
+    "11i_2": {
+      "i2328-bansagibence@thankaroly.hu": {
+        "name": "Bánsági Bence Norbert",
+        "email": "i2328-bansagibence@thankaroly.hu",
+        "password_hash": "98b4e838185182fb94918896b5328efa37b958fda0be14b23f8f99942580c657:8e134543e6f23a9f09bc1844c0720629"
+      },
+      "i2328-hudakmate@thankaroly.hu": {
+        "name": "Hudák Máté Tamás",
+        "email": "i2328-hudakmate@thankaroly.hu",
+        "password_hash": "99d971bee218a653f67933a33a593f7565c585e4021925b2b21fec66a0c3e9bb:937e8dcc3e436f40ab5a687924100cc7"
+      },
+      "i2328-karoly-szaboadam@thankaroly.hu": {
+        "name": "Károly-Szabó Ádám",
+        "email": "i2328-karoly-szaboadam@thankaroly.hu",
+        "password_hash": "5a233cbd234153481ef49ef09672da49bf4ec63582b42607b0861d49b9865ccc:04193104aaed11a4f16b73668ff1edc6"
+      },
+      "i2227-lehnerattila@thankaroly.hu": {
+        "name": "Lehner Attila Zoltán",
+        "email": "i2227-lehnerattila@thankaroly.hu",
+        "password_hash": "516bacc6ed174003fb1ec974dfe30881787f76c16a83599ce9b6e60a1247aa25:4b911c2287c8e358fba154ce50105ecb"
+      },
+      "i2328-nagyandras@thankaroly.hu": {
+        "name": "Nagy András",
+        "email": "i2328-nagyandras@thankaroly.hu",
+        "password_hash": "3137c0f2f4c9a84511eb1a6d9f6fc223890b59578ff23c9fbc3b40d6d852278a:1bc6f2c3bd8b12b1e39090a827bcbfa8"
+      },
+      "i2328-nagybence@thankaroly.hu": {
+        "name": "Nagy Bence",
+        "email": "i2328-nagybence@thankaroly.hu",
+        "password_hash": "49188bbec87aa2f2c6ee64570b0678140b55bcda89f109a285b08109a3186ceb:c30c4b28da232fc7a0952609541c7557"
+      },
+      "i2328-oroszmartin@thankaroly.hu": {
+        "name": "Orosz Martin Zsolt",
+        "email": "i2328-oroszmartin@thankaroly.hu",
+        "password_hash": "c53801ca965f60f06f4590ed4fa0216828e3036847860fa842969d683478b2bd:3c1ff99f8589ffeca27cfbefd39f900a"
+      },
+      "i2328-veghdavid@thankaroly.hu": {
+        "name": "Végh Dávid János",
+        "email": "i2328-veghdavid@thankaroly.hu",
+        "password_hash": "5c6724ff791082a7342b3dd4dd1d171ffce1b07d01ca84384720210ffaac3654:d7b0328e9babe9b91b5b0ae80b74b1ae"
+      }
+    }
+  },
+  "students": {
+    "i2328-biharibenjamin@thankaroly.hu": {
+      "name": "Bihari Benjámin",
+      "email": "i2328-biharibenjamin@thankaroly.hu",
+      "class": "11i_1"
+    },
+    "i2328-ferenczmarcell@thankaroly.hu": {
+      "name": "Ferencz Marcell Zoltán",
+      "email": "i2328-ferenczmarcell@thankaroly.hu",
+      "class": "11i_1"
+    },
+    "i2328-halaszkilian@thankaroly.hu": {
+      "name": "Halász Kilián",
+      "email": "i2328-halaszkilian@thankaroly.hu",
+      "class": "11i_1"
+    },
+    "i2328-nagyadam@thankaroly.hu": {
+      "name": "Nagy Ádám",
+      "email": "i2328-nagyadam@thankaroly.hu",
+      "class": "11i_1"
+    },
+    "i2328-szegedigyorgy@thankaroly.hu": {
+      "name": "Szegedi György Balázs",
+      "email": "i2328-szegedigyorgy@thankaroly.hu",
+      "class": "11i_1"
+    },
+    "i2328-szilagyigabor@thankaroly.hu": {
+      "name": "Szilágyi Gábor Dániel",
+      "email": "i2328-szilagyigabor@thankaroly.hu",
+      "class": "11i_1"
+    },
+    "i2328-szolykabence@thankaroly.hu": {
+      "name": "Szolyka Bence Róbert",
+      "email": "i2328-szolykabence@thankaroly.hu",
+      "class": "11i_1"
+    },
+    "i2328-tallerlilien@thankaroly.hu": {
+      "name": "Taller Lilien",
+      "email": "i2328-tallerlilien@thankaroly.hu",
+      "class": "11i_1"
+    },
+    "i2328-tihonovandras@thankaroly.hu": {
+      "name": "Tihonov András",
+      "email": "i2328-tihonovandras@thankaroly.hu",
+      "class": "11i_1"
+    },
+    "i2328-vigh-buczhunor@thankaroly.hu": {
+      "name": "Vigh-Bucz Hunor",
+      "email": "i2328-vigh-buczhunor@thankaroly.hu",
+      "class": "11i_1"
+    },
+    "i2328-vinczekaroly@thankaroly.hu": {
+      "name": "Vincze Károly Viktor",
+      "email": "i2328-vinczekaroly@thankaroly.hu",
+      "class": "11i_1"
+    },
+    "i2328-bansagibence@thankaroly.hu": {
+      "name": "Bánsági Bence Norbert",
+      "email": "i2328-bansagibence@thankaroly.hu",
+      "class": "11i_2"
+    },
+    "i2328-hudakmate@thankaroly.hu": {
+      "name": "Hudák Máté Tamás",
+      "email": "i2328-hudakmate@thankaroly.hu",
+      "class": "11i_2"
+    },
+    "i2328-karoly-szaboadam@thankaroly.hu": {
+      "name": "Károly-Szabó Ádám",
+      "email": "i2328-karoly-szaboadam@thankaroly.hu",
+      "class": "11i_2"
+    },
+    "i2227-lehnerattila@thankaroly.hu": {
+      "name": "Lehner Attila Zoltán",
+      "email": "i2227-lehnerattila@thankaroly.hu",
+      "class": "11i_2"
+    },
+    "i2328-nagyandras@thankaroly.hu": {
+      "name": "Nagy András",
+      "email": "i2328-nagyandras@thankaroly.hu",
+      "class": "11i_2"
+    },
+    "i2328-nagybence@thankaroly.hu": {
+      "name": "Nagy Bence",
+      "email": "i2328-nagybence@thankaroly.hu",
+      "class": "11i_2"
+    },
+    "i2328-oroszmartin@thankaroly.hu": {
+      "name": "Orosz Martin Zsolt",
+      "email": "i2328-oroszmartin@thankaroly.hu",
+      "class": "11i_2"
+    },
+    "i2328-veghdavid@thankaroly.hu": {
+      "name": "Végh Dávid János",
+      "email": "i2328-veghdavid@thankaroly.hu",
+      "class": "11i_2"
+    }
+  }
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "question": "Mennyi a²·a³?",
+    "type": "text",
+    "answer": ["a^5", "a⁵"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Mennyi (x³)⁴?",
+    "type": "text",
+    "answer": ["x^12", "x¹²"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Mennyi (2x)³?",
+    "type": "text",
+    "answer": ["8x^3", "8x³"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Mennyi a⁵/a²?",
+    "type": "text",
+    "answer": ["a^3", "a³"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Mennyi 5⁰?",
+    "type": "text",
+    "answer": ["1"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Mennyi 2⁻²?",
+    "type": "text",
+    "answer": ["0.25", "1/4"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Melyik azonosság írja le, hogy aᵐ·aⁿ = aᵐ⁺ⁿ?",
+    "type": "single",
+    "options": [
+      "Azonos alapú hatványok szorzata",
+      "Hatvány hatványozása",
+      "Azonos kitevőjű hatványok szorzata",
+      "Hatványok hányadosa"
+    ],
+    "answer": "Azonos alapú hatványok szorzata",
+    "points": 1
+  },
+  {
+    "question": "Mennyi (a·b)²?",
+    "type": "text",
+    "answer": ["a^2b^2", "a²b²"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Mennyi √x⁴?",
+    "type": "text",
+    "answer": ["x^2", "x²"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Mennyi 8²/4²?",
+    "type": "text",
+    "answer": ["4"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Melyik helyes a hatványozás azonosságaira?",
+    "type": "multiple",
+    "options": [
+      "aᵐ·aⁿ = aᵐ⁺ⁿ",
+      "(aᵐ)ⁿ = aᵐⁿ",
+      "aᵐ/aⁿ = aᵐ⁻ⁿ",
+      "(a·b)ⁿ = aⁿ + bⁿ"
+    ],
+    "answer": ["aᵐ·aⁿ = aᵐ⁺ⁿ", "(aᵐ)ⁿ = aᵐⁿ", "aᵐ/aⁿ = aᵐ⁻ⁿ"],
+    "points": 2
+  },
+  {
+    "question": "Mennyi (3²)³?",
+    "type": "text",
+    "answer": ["729"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Mennyi x⁰ bármely x ≠ 0 esetén?",
+    "type": "text",
+    "answer": ["1"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Mennyi (2³·2⁴)/2⁵?",
+    "type": "text",
+    "answer": ["4"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Melyik nem helyes a hatványozás azonosságai közül?",
+    "type": "single",
+    "options": [
+      "aᵐ + aⁿ = aᵐ⁺ⁿ",
+      "aᵐ·aⁿ = aᵐ⁺ⁿ",
+      "(aᵐ)ⁿ = aᵐⁿ",
+      "aᵐ/aⁿ = aᵐ⁻ⁿ"
+    ],
+    "answer": "aᵐ + aⁿ = aᵐ⁺ⁿ",
+    "points": 1
+  },
+  {
+    "question": "Mennyi (x²·y³)²?",
+    "type": "text",
+    "answer": ["x^4y^6", "x⁴y⁶"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Mennyi 100¹/₂?",
+    "type": "text",
+    "answer": ["10"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Melyik egyenlő (a/b)ⁿ-nel?",
+    "type": "single",
+    "options": [
+      "aⁿ/bⁿ",
+      "aⁿ·bⁿ",
+      "aⁿ + bⁿ",
+      "aⁿ - bⁿ"
+    ],
+    "answer": "aⁿ/bⁿ",
+    "points": 1
+  },
+  {
+    "question": "Mennyi 16³/₄?",
+    "type": "text",
+    "answer": ["8"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Egyszerűsítsd: (x⁵·x⁻²)/x³",
+    "type": "text",
+    "answer": ["1", "x^0"],
+    "points": 1,
+    "match_type": "contains"
+  }
+]

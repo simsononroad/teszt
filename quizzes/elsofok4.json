@@ -1,0 +1,31 @@
+[
+  {
+    "question": "Oldd meg az egyenletet: 0.5x + 2 = 3x - 1",
+    "type": "text",
+    "answer": ["1.2"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Oldd meg az egyenletet: 2/3 x - 1/2 = 1/4 x + 1",
+    "type": "text",
+    "answer": ["3.6", "18/5"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Oldd meg az egyenletet: 3(2x - 1) - 2(x + 3) = 4(1 - x)",
+    "type": "text",
+    "answer": ["1.3", "13/10"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Oldd meg az egyenletet: (x - 1)/2 + (x + 2)/3 = 5",
+    "type": "text",
+    "answer": ["5.8", "29/5"],
+    "points": 1,
+    "match_type": "number"
+  }
+
+]

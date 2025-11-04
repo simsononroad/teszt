@@ -1,0 +1,702 @@
+[
+  {
+    "question": "Mennyi a piko prefixum értéke?",
+    "type": "text",
+    "answer": ["0.000000000001", "10^-12"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Mennyi a nano prefixum értéke?",
+    "type": "text",
+    "answer": ["0.000000001", "10^-9"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Mennyi a mikro prefixum értéke?",
+    "type": "text",
+    "answer": ["0.000001", "10^-6"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Mennyi a mili prefixum értéke?",
+    "type": "text",
+    "answer": ["0.001", "10^-3"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Mennyi a centi prefixum értéke?",
+    "type": "text",
+    "answer": ["0.01", "10^-2"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Mennyi a deci prefixum értéke?",
+    "type": "text",
+    "answer": ["0.1", "10^-1"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Mennyi a deka prefixum értéke?",
+    "type": "text",
+    "answer": ["10", "10^1"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Mennyi a hekto prefixum értéke?",
+    "type": "text",
+    "answer": ["100", "10^2"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Mennyi a kilo prefixum értéke?",
+    "type": "text",
+    "answer": ["1000", "10^3"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Mennyi a mega prefixum értéke?",
+    "type": "text",
+    "answer": ["1000000", "10^6"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Mennyi a giga prefixum értéke?",
+    "type": "text",
+    "answer": ["1000000000", "10^9"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Mennyi a terra prefixum értéke?",
+    "type": "text",
+    "answer": ["1000000000000", "10^12"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Melyik prefixum jelentése 10⁻¹²?",
+    "type": "single",
+    "options": ["piko", "nano", "mikro", "mili"],
+    "answer": "piko",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum jelentése 10⁻⁹?",
+    "type": "single",
+    "options": ["nano", "piko", "mikro", "mili"],
+    "answer": "nano",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum jelentése 10⁻⁶?",
+    "type": "single",
+    "options": ["mikro", "nano", "piko", "mili"],
+    "answer": "mikro",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum jelentése 10⁻³?",
+    "type": "single",
+    "options": ["mili", "centi", "deci", "mikro"],
+    "answer": "mili",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum jelentése 10⁻²?",
+    "type": "single",
+    "options": ["centi", "mili", "deci", "deka"],
+    "answer": "centi",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum jelentése 10⁻¹?",
+    "type": "single",
+    "options": ["deci", "centi", "mili", "deka"],
+    "answer": "deci",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum jelentése 10¹?",
+    "type": "single",
+    "options": ["deka", "hekto", "kilo", "deci"],
+    "answer": "deka",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum jelentése 10²?",
+    "type": "single",
+    "options": ["hekto", "deka", "kilo", "mega"],
+    "answer": "hekto",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum jelentése 10³?",
+    "type": "single",
+    "options": ["kilo", "hekto", "mega", "deka"],
+    "answer": "kilo",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum jelentése 10⁶?",
+    "type": "single",
+    "options": ["mega", "kilo", "giga", "hekto"],
+    "answer": "mega",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum jelentése 10⁹?",
+    "type": "single",
+    "options": ["giga", "mega", "terra", "kilo"],
+    "answer": "giga",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum jelentése 10¹²?",
+    "type": "single",
+    "options": ["terra", "giga", "mega", "kilo"],
+    "answer": "terra",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixumok tartoznak az 1-nél kisebb szorzók kategóriájába?",
+    "type": "multiple",
+    "options": ["piko", "nano", "mikro", "mili", "centi", "deci"],
+    "answer": ["piko", "nano", "mikro", "mili", "centi", "deci"],
+    "points": 2
+  },
+  {
+    "question": "Melyik prefixumok tartoznak az 1-nél nagyobb szorzók kategóriájába?",
+    "type": "multiple",
+    "options": ["deka", "hekto", "kilo", "mega", "giga", "terra"],
+    "answer": ["deka", "hekto", "kilo", "mega", "giga", "terra"],
+    "points": 2
+  },
+  {
+    "question": "Melyik prefixumok vannak a mikro és centi között?",
+    "type": "multiple",
+    "options": ["mili", "centi", "deci", "deka"],
+    "answer": ["mili"],
+    "points": 2
+  },
+  {
+    "question": "Melyik prefixumok vannak a centi és deka között?",
+    "type": "multiple",
+    "options": ["deci", "deka", "hekto", "mili"],
+    "answer": ["deci"],
+    "points": 2
+  },
+  {
+    "question": "Melyik prefixumok vannak a deka és kilo között?",
+    "type": "multiple",
+    "options": ["hekto", "kilo", "mega", "deci"],
+    "answer": ["hekto"],
+    "points": 2
+  },
+  {
+    "question": "Melyik prefixumok vannak a kilo és giga között?",
+    "type": "multiple",
+    "options": ["mega", "giga", "hekto", "deka"],
+    "answer": ["mega"],
+    "points": 2
+  },
+  {
+    "question": "Melyik prefixumok vannak a giga és terra között?",
+    "type": "multiple",
+    "options": ["mega", "kilo", "nincs prefixum", "piko"],
+    "answer": ["nincs prefixum"],
+    "points": 2
+  },
+  {
+    "question": "Melyik a legkisebb prefixum a listában?",
+    "type": "single",
+    "options": ["piko", "nano", "mikro", "mili"],
+    "answer": "piko",
+    "points": 1
+  },
+  {
+    "question": "Melyik a legnagyobb prefixum a listában?",
+    "type": "single",
+    "options": ["terra", "giga", "mega", "kilo"],
+    "answer": "terra",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum következik a piko után?",
+    "type": "single",
+    "options": ["nano", "mikro", "mili", "centi"],
+    "answer": "nano",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum következik a nano után?",
+    "type": "single",
+    "options": ["mikro", "piko", "mili", "centi"],
+    "answer": "mikro",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum következik a mikro után?",
+    "type": "single",
+    "options": ["mili", "nano", "centi", "deci"],
+    "answer": "mili",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum következik a mili után?",
+    "type": "single",
+    "options": ["centi", "mikro", "deci", "deka"],
+    "answer": "centi",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum következik a centi után?",
+    "type": "single",
+    "options": ["deci", "mili", "deka", "hekto"],
+    "answer": "deci",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum következik a deci után?",
+    "type": "single",
+    "options": ["deka", "centi", "hekto", "kilo"],
+    "answer": "deka",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum következik a deka után?",
+    "type": "single",
+    "options": ["hekto", "deci", "kilo", "mega"],
+    "answer": "hekto",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum következik a hekto után?",
+    "type": "single",
+    "options": ["kilo", "deka", "mega", "giga"],
+    "answer": "kilo",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum következik a kilo után?",
+    "type": "single",
+    "options": ["mega", "hekto", "giga", "terra"],
+    "answer": "mega",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum következik a mega után?",
+    "type": "single",
+    "options": ["giga", "kilo", "terra", "hekto"],
+    "answer": "giga",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum következik a giga után?",
+    "type": "single",
+    "options": ["terra", "mega", "kilo", "piko"],
+    "answer": "terra",
+    "points": 1
+  },
+  {
+    "question": "Hány méter van 1 kilométerben?",
+    "type": "text",
+    "answer": ["1000"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány méter van 2 kilométerben?",
+    "type": "text",
+    "answer": ["2000"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány méter van 0.5 kilométerben?",
+    "type": "text",
+    "answer": ["500"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány méter van 3.5 kilométerben?",
+    "type": "text",
+    "answer": ["3500"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány gramm van 1 kilogrammban?",
+    "type": "text",
+    "answer": ["1000"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány gramm van 2 kilogrammban?",
+    "type": "text",
+    "answer": ["2000"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány gramm van 0.5 kilogrammban?",
+    "type": "text",
+    "answer": ["500"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány gramm van 1.5 kilogrammban?",
+    "type": "text",
+    "answer": ["1500"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány centiméter van 1 méterben?",
+    "type": "text",
+    "answer": ["100"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány centiméter van 2 méterben?",
+    "type": "text",
+    "answer": ["200"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány centiméter van 0.5 méterben?",
+    "type": "text",
+    "answer": ["50"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány centiméter van 1.25 méterben?",
+    "type": "text",
+    "answer": ["125"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány milliméter van 1 méterben?",
+    "type": "text",
+    "answer": ["1000"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány milliméter van 2 méterben?",
+    "type": "text",
+    "answer": ["2000"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány milliméter van 0.5 méterben?",
+    "type": "text",
+    "answer": ["500"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány milliméter van 0.75 méterben?",
+    "type": "text",
+    "answer": ["750"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány liter van 1 hektoliterben?",
+    "type": "text",
+    "answer": ["100"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány liter van 2 hektoliterben?",
+    "type": "text",
+    "answer": ["200"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány liter van 0.5 hektoliterben?",
+    "type": "text",
+    "answer": ["50"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány liter van 1.5 hektoliterben?",
+    "type": "text",
+    "answer": ["150"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány gramm van 1 dekagrammban?",
+    "type": "text",
+    "answer": ["10"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány gramm van 2 dekagrammban?",
+    "type": "text",
+    "answer": ["20"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány gramm van 0.5 dekagrammban?",
+    "type": "text",
+    "answer": ["5"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány gramm van 1.25 dekagrammban?",
+    "type": "text",
+    "answer": ["12.5"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány milliméter van 1 centiméterben?",
+    "type": "text",
+    "answer": ["10"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány milliméter van 2 centiméterben?",
+    "type": "text",
+    "answer": ["20"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány milliméter van 0.5 centiméterben?",
+    "type": "text",
+    "answer": ["5"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány milliméter van 1.75 centiméterben?",
+    "type": "text",
+    "answer": ["17.5"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány centiméter van 1 deciméterben?",
+    "type": "text",
+    "answer": ["10"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány centiméter van 2 deciméterben?",
+    "type": "text",
+    "answer": ["20"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány centiméter van 0.5 deciméterben?",
+    "type": "text",
+    "answer": ["5"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány centiméter van 1.25 deciméterben?",
+    "type": "text",
+    "answer": ["12.5"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány méter van 1 decaméterben?",
+    "type": "text",
+    "answer": ["10"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány méter van 2 decaméterben?",
+    "type": "text",
+    "answer": ["20"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány méter van 0.5 decaméterben?",
+    "type": "text",
+    "answer": ["5"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Hány méter van 1.75 decaméterben?",
+    "type": "text",
+    "answer": ["17.5"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Melyik prefixum pontosan 100-szorosát jelenti?",
+    "type": "single",
+    "options": ["hekto", "kilo", "deka", "deci"],
+    "answer": "hekto",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum pontosan 10-szeresét jelenti?",
+    "type": "single",
+    "options": ["deka", "hekto", "kilo", "deci"],
+    "answer": "deka",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum pontosan 1000-szeresét jelenti?",
+    "type": "single",
+    "options": ["kilo", "hekto", "mega", "deka"],
+    "answer": "kilo",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum pontosan 0.1-szeresét jelenti?",
+    "type": "single",
+    "options": ["deci", "centi", "mili", "mikro"],
+    "answer": "deci",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum pontosan 0.01-szeresét jelenti?",
+    "type": "single",
+    "options": ["centi", "deci", "mili", "mikro"],
+    "answer": "centi",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixum pontosan 0.001-szeresét jelenti?",
+    "type": "single",
+    "options": ["mili", "centi", "deci", "mikro"],
+    "answer": "mili",
+    "points": 1
+  },
+  {
+    "question": "Melyik prefixumok jelentenek 1000-nél nagyobb szorzókat?",
+    "type": "multiple",
+    "options": ["kilo", "mega", "giga", "terra", "hekto"],
+    "answer": ["kilo", "mega", "giga", "terra"],
+    "points": 2
+  },
+  {
+    "question": "Melyik prefixumok jelentenek 0.1-nél kisebb szorzókat?",
+    "type": "multiple",
+    "options": ["centi", "mili", "mikro", "nano", "piko"],
+    "answer": ["centi", "mili", "mikro", "nano", "piko"],
+    "points": 2
+  },
+  {
+    "question": "Rendezd növekvő sorrendbe a prefixumokat!",
+    "type": "text",
+    "answer": ["piko nano mikro mili centi deci deka hekto kilo mega giga terra"],
+    "points": 2,
+    "match_type": "contains"
+  },
+  {
+    "question": "Melyik prefixum hiányzik a sorozatból: piko, nano, mikro, mili, centi, deci, ____, hekto, kilo, mega, giga, terra",
+    "type": "text",
+    "answer": ["deka"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Melyik prefixum hiányzik a sorozatból: piko, nano, ____, mili, centi, deci, deka, hekto, kilo, mega, giga, terra",
+    "type": "text",
+    "answer": ["mikro"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Melyik prefixum hiányzik a sorozatból: piko, ____, mikro, mili, centi, deci, deka, hekto, kilo, mega, giga, terra",
+    "type": "text",
+    "answer": ["nano"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Melyik prefixum hiányzik a sorozatból: ____, nano, mikro, mili, centi, deci, deka, hekto, kilo, mega, giga, terra",
+    "type": "text",
+    "answer": ["piko"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Melyik prefixum hiányzik a sorozatból: piko, nano, mikro, mili, centi, deci, deka, hekto, kilo, mega, giga, ____",
+    "type": "text",
+    "answer": ["terra"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Melyik prefixum hiányzik a sorozatból: piko, nano, mikro, mili, centi, deci, deka, hekto, kilo, ____, giga, terra",
+    "type": "text",
+    "answer": ["mega"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Melyik prefixum hiányzik a sorozatból: piko, nano, mikro, mili, centi, deci, deka, hekto, ____, mega, giga, terra",
+    "type": "text",
+    "answer": ["kilo"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Melyik prefixum hiányzik a sorozatból: piko, nano, mikro, mili, centi, deci, deka, ____, kilo, mega, giga, terra",
+    "type": "text",
+    "answer": ["hekto"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Melyik prefixum hiányzik a sorozatból: piko, nano, mikro, mili, centi, ____, deka, hekto, kilo, mega, giga, terra",
+    "type": "text",
+    "answer": ["deci"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Melyik prefixum hiányzik a sorozatból: piko, nano, mikro, mili, ____, deci, deka, hekto, kilo, mega, giga, terra",
+    "type": "text",
+    "answer": ["centi"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Melyik prefixum hiányzik a sorozatból: piko, nano, mikro, ____, centi, deci, deka, hekto, kilo, mega, giga, terra",
+    "type": "text",
+    "answer": ["mili"],
+    "points": 1,
+    "match_type": "contains"
+  }
+]

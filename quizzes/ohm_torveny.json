@@ -1,0 +1,177 @@
+[
+  {
+    "question": "Mi az Ohm törvény matematikai képlete?",
+    "type": "single",
+    "options": [
+      "I = U × R",
+      "U = I × R", 
+      "R = U × I",
+      "P = U × I"
+    ],
+    "answer": "U = I × R",
+    "points": 1
+  },
+  {
+    "question": "Mekkora a feszültség, ha az áramerősség 2 A és az ellenállás 10 Ω?",
+    "type": "text",
+    "answer": ["20"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Mekkora az áramerősség, ha a feszültség 12 V és az ellenállás 4 Ω?",
+    "type": "text",
+    "answer": ["3"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Mekkora az ellenállás, ha a feszültség 24 V és az áramerősség 0,5 A?",
+    "type": "text",
+    "answer": ["48"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Melyik mértékegység-párosítás helyes?",
+    "type": "multiple",
+    "options": [
+      "Feszültség - Volt (V)",
+      "Áramerősség - Amper (A)",
+      "Ellenállás - Ohm (Ω)",
+      "Teljesítmény - Watt (W)"
+    ],
+    "answer": ["Feszültség - Volt (V)", "Áramerősség - Amper (A)", "Ellenállás - Ohm (Ω)"],
+    "points": 2
+  },
+  {
+    "question": "Egy 100 Ω-os ellenálláson 0,2 A áram folyik. Mekkora a feszültség?",
+    "type": "text",
+    "answer": ["20"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Egy izzólámpa ellenállása 60 Ω. Mekkora áram folyik rajta, ha 230 V-ra kapcsoljuk?",
+    "type": "text",
+    "answer": ["3.83"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Melyik állítás igaz az Ohm-törvényre?",
+    "type": "single",
+    "options": [
+      "Csak fémekre érvényes",
+      "Csak egyenáramra érvényes",
+      "Lineáris ellenállásokra érvényes",
+      "Csak vezetékekre érvényes"
+    ],
+    "answer": "Lineáris ellenállásokra érvényes",
+    "points": 1
+  },
+  {
+    "question": "Két azonos ellenállást párhuzamosan kapcsolunk. Az eredő ellenállás:",
+    "type": "single",
+    "options": [
+      "Nagyobb, mint egy ellenállás",
+      "Ugyanakkora, mint egy ellenállás",
+      "Fele akkora, mint egy ellenállás",
+      "Negyede akkora, mint egy ellenállás"
+    ],
+    "answer": "Fele akkora, mint egy ellenállás",
+    "points": 1
+  },
+  {
+    "question": "Egy áramkörben 3 db 30 Ω-os ellenállás van sorba kapcsolva. Mekkora az eredő ellenállás?",
+    "type": "text",
+    "answer": ["90"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Két 60 Ω-os ellenállást párhuzamosan kapcsolunk. Mekkora az eredő ellenállás?",
+    "type": "text",
+    "answer": ["30"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Melyik NEM befolyásolja a vezető ellenállását?",
+    "type": "single",
+    "options": [
+      "A hőmérséklet",
+      "A hossz",
+      "A keresztmetszet",
+      "A feszültség"
+    ],
+    "answer": "A feszültség",
+    "points": 1
+  },
+  {
+    "question": "Egy 12 V-os telep sarkaira 4 Ω és 6 Ω ellenállásokat kapcsolunk párhuzamosan. Mekkora az eredő ellenállás?",
+    "type": "text",
+    "answer": ["2.4"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Az előző feladatban mekkora áram folyik a telepen?",
+    "type": "text",
+    "answer": ["5"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Egy 220 Ω-os ellenálláson 0,5 A áram folyik. Mekkora a teljesítmény?",
+    "type": "text",
+    "answer": ["55"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Melyik anyag vezeti jobban az elektromos áramot?",
+    "type": "single",
+    "options": [
+      "Réz",
+      "Alumínium",
+      "Vas",
+      "Ólom"
+    ],
+    "answer": "Réz",
+    "points": 1
+  },
+  {
+    "question": "Egy fogyasztó 230 V feszültségről 2 A áramot vesz fel. Mekkora az ellenállása?",
+    "type": "text",
+    "answer": ["115"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Melyik tényezők növelik a vezető ellenállását?",
+    "type": "multiple",
+    "options": [
+      "Nagyobb hossz",
+      "Kisebb keresztmetszet",
+      "Magasabb hőmérséklet",
+      "Nagyobb feszültség"
+    ],
+    "answer": ["Nagyobb hossz", "Kisebb keresztmetszet", "Magasabb hőmérséklet"],
+    "points": 2
+  },
+  {
+    "question": "Egy 1,5 m hosszú és 0,5 mm² keresztmetszetű rézvezető ellenállása 0,05 Ω. Mekkora lesz az ellenállása, ha a hosszát megduplázzuk?",
+    "type": "text",
+    "answer": ["0.1"],
+    "points": 1,
+    "match_type": "number"
+  },
+  {
+    "question": "Az előző feladatban mekkora lesz az ellenállás, ha a keresztmetszetet is megduplázzuk?",
+    "type": "text",
+    "answer": ["0.05"],
+    "points": 1,
+    "match_type": "number"
+  }
+]

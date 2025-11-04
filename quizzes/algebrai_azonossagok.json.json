@@ -1,0 +1,162 @@
+[
+  {
+    "question": "Mennyi (a + b)²?",
+    "type": "text",
+    "answer": ["a² + 2ab + b²"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Mennyi (a - b)²?",
+    "type": "text",
+    "answer": ["a² - 2ab + b²"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Mennyi a² - b²?",
+    "type": "text",
+    "answer": ["(a - b)(a + b)"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Mennyi (a + b)³?",
+    "type": "text",
+    "answer": ["a³ + 3a²b + 3ab² + b³"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Mennyi (a - b)³?",
+    "type": "text",
+    "answer": ["a³ - 3a²b + 3ab² - b³"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Melyik azonosság írja le, hogy a² - b² = (a - b)(a + b)?",
+    "type": "single",
+    "options": [
+      "Két tag különbségének négyzete",
+      "Két tag összegének négyzete",
+      "Két tag négyzetének különbsége",
+      "Két tag köbének összege"
+    ],
+    "answer": "Két tag négyzetének különbsége",
+    "points": 1
+  },
+  {
+    "question": "Mennyi (2x + 3y)²?",
+    "type": "text",
+    "answer": ["4x² + 12xy + 9y²"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Mennyi (5 - 2a)(5 + 2a)?",
+    "type": "text",
+    "answer": ["25 - 4a²"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Melyik azonosságok tartoznak a nevezetes algebrai azonosságok közé?",
+    "type": "multiple",
+    "options": [
+      "(a + b)² = a² + 2ab + b²",
+      "(a - b)² = a² - 2ab + b²",
+      "a² - b² = (a - b)(a + b)",
+      "a³ + b³ = (a + b)(a² - ab + b²)"
+    ],
+    "answer": ["(a + b)² = a² + 2ab + b²", "(a - b)² = a² - 2ab + b²", "a² - b² = (a - b)(a + b)", "a³ + b³ = (a + b)(a² - ab + b²)"],
+    "points": 2
+  },
+  {
+    "question": "Mennyi (x + 2)³?",
+    "type": "text",
+    "answer": ["x³ + 6x² + 12x + 8"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Mennyi (3a - 1)²?",
+    "type": "text",
+    "answer": ["9a² - 6a + 1"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Melyik NEM algebrai azonosság?",
+    "type": "single",
+    "options": [
+      "(a + b)² = a² + 2ab + b²",
+      "a² + b² = (a + b)²",
+      "a³ - b³ = (a - b)(a² + ab + b²)",
+      "(a + b)(a - b) = a² - b²"
+    ],
+    "answer": "a² + b² = (a + b)²",
+    "points": 1
+  },
+  {
+    "question": "Mennyi 4x² - 9y²?",
+    "type": "text",
+    "answer": ["(2x - 3y)(2x + 3y)"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Mennyi (2a + b)(4a² - 2ab + b²)?",
+    "type": "text",
+    "answer": ["8a³ + b³"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Mennyi a³ + b³?",
+    "type": "text",
+    "answer": ["(a + b)(a² - ab + b²)"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Mennyi a³ - b³?",
+    "type": "text",
+    "answer": ["(a - b)(a² + ab + b²)"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Egyszerűsítsd: (x + 3)² - (x - 2)²",
+    "type": "text",
+    "answer": ["10x + 5"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Mennyi (√a + √b)(√a - √b)?",
+    "type": "text",
+    "answer": ["a - b"],
+    "points": 1,
+    "match_type": "contains"
+  },
+  {
+    "question": "Melyik helyes felbontás az x⁴ - 16 kifejezésre?",
+    "type": "single",
+    "options": [
+      "(x² - 4)(x² + 4)",
+      "(x - 2)(x + 2)(x² + 4)",
+      "(x - 2)²(x + 2)²",
+      "(x² - 4)²"
+    ],
+    "answer": "(x - 2)(x + 2)(x² + 4)",
+    "points": 1
+  },
+  {
+    "question": "Mennyi (a + b + c)²?",
+    "type": "text",
+    "answer": ["a² + b² + c² + 2ab + 2ac + 2bc"],
+    "points": 1,
+    "match_type": "contains"
+  }
+]
