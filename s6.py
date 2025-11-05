@@ -32,7 +32,7 @@ def student_login_interface():
                 st.warning("Kérjük, add meg az email címed és a jelszavad!")
     
     with register_tab:
-        st.info("Ha még nincs fiókod, kérjük vedd fel a kapcsolatot a tanároddal!")
+        st.info("Ha még nincs fiókod, kérjük vedd fel a kapcsolatot a tanároddal!!")
 
 def student_quiz_interface():
     st.title("🎓 Diák Quiz")
