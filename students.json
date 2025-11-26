@@ -2,7 +2,13 @@
   "classes": {
     "9i_1": {},
     "9i_2": {},
-    "10i_1": {},
+    "10i_1": {
+      "dani": {
+        "name": "dani",
+        "email": "dani",
+        "password_hash": "dfd0c59acd7d79e52253dfb443f3472cd4a4a5c39cba3ccf4ec6154fbdfb1d06:0af7c0df8460bba5c15815817dbd82bc"
+      }
+    },
     "10i_2": {},
     "10k_1": {},
     "10k_2": {},
@@ -201,6 +207,11 @@
       "name": "Végh Dávid János",
       "email": "i2328-veghdavid@thankaroly.hu",
       "class": "11i_2"
+    },
+    "dani": {
+      "name": "dani",
+      "email": "dani",
+      "class": "10i_1"
     }
   }
 }

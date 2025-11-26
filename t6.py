@@ -128,6 +128,14 @@ def teacher_quiz_management():
             st.success(f"'{new_quiz_name}' quiz létrehozva!")
             st.session_state.teacher_selected_quiz = new_quiz_id
             st.rerun()
+        ai_task_name = st.text_input("Feladatsor neve", placeholder="Feladatsor neve", key="ai_task_name")
+        ai_topic_name = st.text_input("Téma neve", placeholder="Téma neve", key="ai_topic_name")
+        ai_num_of_task = st.text_input("Feladatok száma", placeholder="Feladatok száma", key="ai_num_of_task")
+        if st.button("AI álltal generált feladatsor") and ai_task_name and ai_num_of_task and ai_topic_name:
+            import test
+            
+            conf = load_config()
+            test.gen_task(api_key=conf["api_key"], task_name=ai_task_name, task_topic=ai_topic_name, num_of_task=ai_num_of_task)
     
     if not st.session_state.teacher_selected_quiz:
         st.info("Válassz ki egy quizt a listából, vagy hozz létre egy újat.")
