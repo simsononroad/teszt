@@ -94,8 +94,9 @@ def teacher_quiz_management():
         quiz_options = {qid: f"{data['name']} ({data['question_count']} kérdés)" 
                        for qid, data in available_quizzes.items()}
     
-    col1, col2 = st.columns([3, 1])
+    col1, col2, col4 = st.columns([3, 1, 2])
     
+
     with col1:
         if 'teacher_selected_quiz' not in st.session_state:
             st.session_state.teacher_selected_quiz = list(quiz_options.keys())[0] if quiz_options else ""
@@ -128,13 +129,30 @@ def teacher_quiz_management():
             st.success(f"'{new_quiz_name}' quiz létrehozva!")
             st.session_state.teacher_selected_quiz = new_quiz_id
             st.rerun()
-        ai_task_name = st.text_input("Feladatsor neve", placeholder="Feladatsor neve", key="ai_task_name")
-        ai_topic_name = st.text_input("Téma neve", placeholder="Téma neve", key="ai_topic_name")
-        ai_num_of_task = st.text_input("Feladatok száma", placeholder="Feladatok száma", key="ai_num_of_task")
-        if st.button("AI álltal generált feladatsor") and ai_task_name and ai_num_of_task and ai_topic_name:
-            
-            conf = load_config()
-            gen_task(api_key=conf["api_key"], task_name=ai_task_name, task_topic=ai_topic_name, num_of_task=ai_num_of_task)
+
+    with col4:
+        css  = """
+            .st-key-ai {
+                background-color: #1d1d1d;
+                border-radius: 10px;
+                padding: 10px;
+            }
+
+        """
+        st.html(f"<style>{css}</style>")
+        with st.container(key="ai"):
+            st.html("""
+            <h1>Feladat generálása AI segítségével</h1>
+            <style></style>
+            """)
+            ai_task_name = st.text_input("Feladatsor neve", placeholder="Feladatsor neve", key="ai_task_name")
+            ai_topic_name = st.text_input("Téma neve", placeholder="Téma neve", key="ai_topic_name")
+            ai_teacher_desc = st.text_area("Egyéb paraméterek", placeholder="Egyéb paraméterek", key="ai_teacher_desc")
+            ai_num_of_task = st.text_input("Feladatok száma", placeholder="Feladatok száma", key="ai_num_of_task")
+            if st.button("AI álltal generált feladatsor") and ai_task_name and ai_num_of_task and ai_topic_name:
+                
+                conf = load_config()
+                gen_task(api_key=conf["api_key"], task_name=ai_task_name, task_topic=ai_topic_name, num_of_task=ai_num_of_task, ai_teacher_desc=ai_teacher_desc)
     
     if not st.session_state.teacher_selected_quiz:
         st.info("Válassz ki egy quizt a listából, vagy hozz létre egy újat.")
@@ -154,7 +172,7 @@ def teacher_quiz_management():
     config = load_config()
     quiz_settings = config.get("quiz_settings", {}).get(selected_quiz_id, {})
     
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
     
     with col1:
         show_correct_answers = st.checkbox(
