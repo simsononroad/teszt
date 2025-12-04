@@ -26,6 +26,7 @@ STUDENTS_FILE = "students.json"
 
 def gen_task(api_key, task_name, task_topic, num_of_task, ai_teacher_desc):
     from google import genai
+    config = load_config()
 
     client = genai.Client(api_key=api_key)
 
@@ -44,7 +45,7 @@ def gen_task(api_key, task_name, task_topic, num_of_task, ai_teacher_desc):
                 "match_type": "number"
             }
         ]
-        , a témakör legyen: """+ task_topic+f", és a témakörből {num_of_task} mennyiségü kérdést generálj. Csak a json végeredményt mondjad. Használható 'match_type'-ok: contains, number, exact. A tanár még pár fontos adatot ad meg a feladatsorról: {ai_teacher_desc}. Ha ez ellentmond a korábbiakban leírtal abban az esetben hagyd figyelmen kívül a jelenlegi kérést.",
+        ,"""+ f"{config["prompot"]["resz1"]}: "+ task_topic+f"{config["prompot"]["resz2"]}"+ num_of_task+ f"{config["prompot"]["resz3"]} "+ai_teacher_desc+f". {config["prompot"]["resz4"]}",
     )
     with open(f"quizzes/{task_name}.json", "w") as f:
         f.write(response.text[7:-3])

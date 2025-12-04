@@ -94,9 +94,11 @@ def teacher_quiz_management():
         quiz_options = {qid: f"{data['name']} ({data['question_count']} kérdés)" 
                        for qid, data in available_quizzes.items()}
     
-    col1, col2, col4 = st.columns([3, 1, 2])
-    
 
+
+    col1, col2, col3, col4 = st.columns([3, 1, 1, 2])
+    
+    
     with col1:
         if 'teacher_selected_quiz' not in st.session_state:
             st.session_state.teacher_selected_quiz = list(quiz_options.keys())[0] if quiz_options else ""
@@ -153,6 +155,7 @@ def teacher_quiz_management():
                 
                 conf = load_config()
                 gen_task(api_key=conf["api_key"], task_name=ai_task_name, task_topic=ai_topic_name, num_of_task=ai_num_of_task, ai_teacher_desc=ai_teacher_desc)
+    
     
     if not st.session_state.teacher_selected_quiz:
         st.info("Válassz ki egy quizt a listából, vagy hozz létre egy újat.")
@@ -566,6 +569,51 @@ def teacher_settings():
                 st.success(message)
             else:
                 st.error(message)
+
+    config = load_config()
+    st.header("AI Beállításai")
+    st.text("Hogyan szerezzek api kulcsot?")
+    api_key = st.text_input("Google API Key", value=config["api_key"])
+    st.subheader("---------------------")
+    if st.checkbox(label="Részletes prompt"):
+        col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
+        col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 0.5, 1, 1, 1, 1, 1])
+    
+        with col1:
+            resz1 = st.text_area("Részletes promt 1. része", value=config["prompt"]["resz1"])
+            if st.button("Első rész mentése"):
+                config["prompt"]["resz1"] = resz1
+        with col2:
+            st.space()
+            st.subheader("témakör.")
+        with col3:
+            resz2 = st.text_area("Részletes promt 2. része", value=config["prompt"]["resz2"])
+            if st.button("Második rész mentése"):
+                config["prompt"]["resz2"] = resz2
+        with col4:
+            st.space()
+            st.subheader("Feladatok száma.")
+        with col5:
+            resz3 = st.text_area("Részletes promt 3. része", value=config["prompt"]["resz3"], height=200)
+            if st.button("Harmadik rész mentése"):
+                config["prompt"]["resz3"] = resz3
+        with col6:
+            st.space()
+            st.subheader("Tanár szövege.")
+        with col7:
+            resz4 = st.text_area("Részletes promt 4. része", value=config["prompt"]["resz4"], height=300)
+            if st.button("Negyedik rész mentése"):
+                config["prompt"]["resz4"] = resz4
+    else:
+        prompt = st.text_input("Egyszerű prompt", value=config["prompt"]["resz4"])
+        if st.button("Mentés"):
+            config["api_key"] = api_key
+            config["prompt"]["resz4"] = prompt
+
+    
+
+
+
 
 def teacher_interface():
     st.title("👨‍🏫 Tanári Felület")
