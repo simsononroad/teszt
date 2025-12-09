@@ -585,6 +585,17 @@ def teacher_settings():
             else:
                 st.toast(icon="❌", body="##### ```Sikertelen azonosítás```", duration=2)
     st.subheader("---------------------")
+    st.text("Hogyan szerezzek api kulcsot?: "); st.link_button("Google API kulcs létrehozása", "https://aistudio.google.com/api-keys")
+    api_key = st.text_input("Google API Key", value=config["api_key"])
+    if st.button("api kulcs mentése"):
+        config["api_key"] = api_key
+        save_config(config)
+    if st.button("API kulcs törlése"):
+        config["api_key"] = "API kulcs"
+        save_config(config)
+        st.warning("API kulcs törölve.")
+        
+    st.html("<hr>")
     if st.checkbox(label="Részletes prompt"):
         col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
         col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 0.5, 1, 1, 1, 1, 1])
@@ -593,6 +604,8 @@ def teacher_settings():
             resz1 = st.text_area("Részletes promt 1. része", value=config["prompt"]["resz1"])
             if st.button("Első rész mentése"):
                 config["prompt"]["resz1"] = resz1
+                save_config(config)
+                st.success("A mentés sikeres")
         with col2:
             st.space()
             st.subheader("témakör.")
@@ -600,6 +613,8 @@ def teacher_settings():
             resz2 = st.text_area("Részletes promt 2. része", value=config["prompt"]["resz2"])
             if st.button("Második rész mentése"):
                 config["prompt"]["resz2"] = resz2
+                save_config(config)
+                st.success("A mentés sikeres")
         with col4:
             st.space()
             st.subheader("Feladatok száma.")
@@ -607,6 +622,8 @@ def teacher_settings():
             resz3 = st.text_area("Részletes promt 3. része", value=config["prompt"]["resz3"], height=200)
             if st.button("Harmadik rész mentése"):
                 config["prompt"]["resz3"] = resz3
+                save_config(config)
+                st.success("A mentés sikeres")
         with col6:
             st.space()
             st.subheader("Tanár szövege.")
@@ -614,12 +631,14 @@ def teacher_settings():
             resz4 = st.text_area("Részletes promt 4. része", value=config["prompt"]["resz4"], height=300)
             if st.button("Negyedik rész mentése"):
                 config["prompt"]["resz4"] = resz4
+                save_config(config)
+                st.success("A mentés sikeres")
     else:
-        prompt = st.text_input("Egyszerű prompt", value=config["prompt"]["resz4"])
+        prompt = st.text_area("Egyszerű prompt", value=config["prompt"]["resz4"])
         if st.button("Mentés"):
-            config["api_key"] = api_key
             config["prompt"]["resz4"] = prompt
-
+            save_config(config)
+            st.success("A mentés sikeres")
     
 
 
