@@ -574,27 +574,28 @@ def teacher_settings():
     st.header("AI Beállításai")
     st.text("Hogyan szerezzek api kulcsot?")
     if st.checkbox(label="API kulcs szerkesztése"):
+        if st.button("Fejlesztői jelszó", type="tertiary"):
+            st.toast(icon="💡", body="A fejlesztői jelszó megváltoztatható itt:```~/quiz_config.json```>```dev_passw```", duration='long')
         check_container = st.empty()
+        
         dev_passw = check_container.text_input("Jelszó", type="password")
-        if st.button("Tovább"):
-            print(simple_hash(dev_passw))
+        if st.checkbox("Szerkesztés engedélyezése"):
             if simple_hash(dev_passw) == config["dev_passw"]:
                 st.toast(icon="✅", body="#### ```Sikeres azonosítás```", duration=2)
                 check_container.empty()
-                api_key = st.text_input("Google API Key", value=config["api_key"])
+                api_key = st.text_input("Google API Key", value="..."+config["api_key"][-4:])
+                st.text("Hogyan szerezzek api kulcsot?: "); st.link_button("Google API kulcs létrehozása", "https://aistudio.google.com/api-keys")
+                if st.button("api kulcs mentése"):
+                    config["api_key"] = api_key
+                    save_config(config)
+                if st.button("API kulcs törlése"):
+                    config["api_key"] = "API kulcs"
+                    save_config(config)
+                    st.warning("API kulcs törölve.")
             else:
                 st.toast(icon="❌", body="##### ```Sikertelen azonosítás```", duration=2)
-    st.subheader("---------------------")
-    st.text("Hogyan szerezzek api kulcsot?: "); st.link_button("Google API kulcs létrehozása", "https://aistudio.google.com/api-keys")
-    api_key = st.text_input("Google API Key", value=config["api_key"])
-    if st.button("api kulcs mentése"):
-        config["api_key"] = api_key
-        save_config(config)
-    if st.button("API kulcs törlése"):
-        config["api_key"] = "API kulcs"
-        save_config(config)
-        st.warning("API kulcs törölve.")
-        
+
+       
     st.html("<hr>")
     if st.checkbox(label="Részletes prompt"):
         col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
