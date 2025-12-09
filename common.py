@@ -56,6 +56,9 @@ def hash_password(password):
     salt = secrets.token_hex(16)
     return hashlib.pbkdf2_hmac('sha256', password.encode(), salt.encode(), 100000).hex() + ":" + salt
 
+def simple_hash(password):
+    return hashlib.sha256(password.encode()).hexdigest()
+
 def verify_password(password, hashed):
     """Jelszó ellenőrzése"""
     try:

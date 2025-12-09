@@ -573,7 +573,17 @@ def teacher_settings():
     config = load_config()
     st.header("AI Beállításai")
     st.text("Hogyan szerezzek api kulcsot?")
-    api_key = st.text_input("Google API Key", value=config["api_key"])
+    if st.checkbox(label="API kulcs szerkesztése"):
+        check_container = st.empty()
+        dev_passw = check_container.text_input("Jelszó", type="password")
+        if st.button("Tovább"):
+            print(simple_hash(dev_passw))
+            if simple_hash(dev_passw) == config["dev_passw"]:
+                st.toast(icon="✅", body="#### ```Sikeres azonosítás```", duration=2)
+                check_container.empty()
+                api_key = st.text_input("Google API Key", value=config["api_key"])
+            else:
+                st.toast(icon="❌", body="##### ```Sikertelen azonosítás```", duration=2)
     st.subheader("---------------------")
     if st.checkbox(label="Részletes prompt"):
         col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
